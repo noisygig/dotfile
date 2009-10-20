@@ -1,0 +1,17 @@
+" ==Vimperator_Color_Scheme==
+" name: Noisy
+" ==Mono_Color_Scheme==
+hi Hint			color: white;		background: Black;	font-size: 8px;	font-family: "Print Char 21";	font-weight: normal;	padding: 1px 2px 0px;	opacity:0.80;
+hi HintElem		background-color: pink;		
+hi HintActive		background-color: hotpink;	
+
+hi StatusLine 		color: white;	background: black;	font-family: "Anonymous Pro";	font-weight:normal;	font-size: 12px;
+
+style -name tab chrome://* <<EOM
+#liberator-statusline {
+    font-family: "Anonymous Pro" !important;
+    font-weight: normal !important;
+    font-size: 10pt !important;
+    padding:3px 0 !important;
+}
+EOM

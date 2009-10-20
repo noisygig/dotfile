@@ -1,0 +1,8 @@
+" colorscheme
+colorscheme vimplight
+
+set complete=bS
+set suggestengines=google
+set hintmatching=custom
+set editor=mate
+set guioptions+=n
