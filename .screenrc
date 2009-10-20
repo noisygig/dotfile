@@ -1,0 +1,25 @@
+defencoding UTF-8
+escape 
+
+caption always "%`%-w %{=b rw}%n %t%{-}%+w"
+hardstatus alwayslastline "load avg: %l %= %Y/%m/%d(%D) %02c:%s"
+
+startup_message off
+autodetach on
+defscrollback 5000
+
+#idle 600
+#blankerprg sl
+
+bind s colon 'screen '
+
+bind -c app t screen top
+bind -c app w screen w3m google.com
+bind  command -c app
+
+bind -c REGION 2 split
+bind -c REGION 1 only
+bind -c REGION 0 remove
+bind -c REGION o focus
+bind -c REGION ^ resize
+bind  command -c REGION
